@@ -4,7 +4,7 @@
             <div class="w-44 h-44 mb-2 transform hover:scale-105 transition-transform">
                 <img 
                     src="{{ asset('logo_sam.jpg') }}" 
-                    alt="{{ config('app.name', 'Immos SAM') }}"
+                    alt="{{ config('app.name', 'Immos SAN') }}"
                     class="w-full h-full object-contain drop-shadow-lg">
             </div>
         </div>

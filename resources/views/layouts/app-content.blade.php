@@ -15,7 +15,7 @@
         <div class="flex items-center justify-between h-14 sm:h-16 px-4 sm:px-6 bg-indigo-900 border-b border-indigo-700">
             <div class="flex items-center space-x-2 min-w-0">
                 <div class="flex flex-col leading-tight min-w-0">
-                    <span class="font-bold text-base sm:text-lg truncate">Immos SAM</span>
+                    <span class="font-bold text-base sm:text-lg truncate">Immos SAN</span>
                     <span class="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider">Immobilisations</span>
                 </div>
             </div>
@@ -259,7 +259,7 @@
 
             <!-- Footer -->
             <footer class="bg-white border-t border-gray-200 px-3 sm:px-4 md:px-6 py-3 sm:py-4 mt-auto">
-                <p class="text-xs sm:text-sm text-gray-500 text-center">© 2025 Immos SAM</p>
+                <p class="text-xs sm:text-sm text-gray-500 text-center">© 2025 Immos SAN</p>
             </footer>
         </main>
     </div>

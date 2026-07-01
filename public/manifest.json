@@ -1,7 +1,7 @@
 {
-  "name": "Immos SAM",
-  "short_name": "Immos SAM",
-  "description": "Immos SAM - Gestion des immobilisations",
+  "name": "Immos SAN",
+  "short_name": "Immos SAN",
+  "description": "Immos SAN - Gestion des immobilisations",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

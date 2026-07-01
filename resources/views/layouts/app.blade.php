@@ -21,9 +21,9 @@
     <meta name="theme-color" content="#383f7b">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Immos SAM">
+    <meta name="apple-mobile-web-app-title" content="Immos SAN">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="description" content="Immos SAM - Gestion des immobilisations">
+    <meta name="description" content="Immos SAN - Gestion des immobilisations">
 
     <title>{{ config('app.name', 'Inventaire Pro') }} - @yield('title', 'Dashboard')</title>
     
@@ -68,7 +68,7 @@
             <div class="flex items-center justify-between h-16 px-6 bg-indigo-900 border-b border-indigo-700">
                 <div class="flex items-center space-x-2">
                     <div class="flex flex-col leading-tight">
-                        <span class="font-bold text-lg">Immos SAM</span>
+                        <span class="font-bold text-lg">Immos SAN</span>
                         <span class="text-[10px] text-gray-400 uppercase tracking-wider">Immobilisations</span>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
 
                 <!-- Footer -->
                 <footer class="bg-white border-t border-gray-200 px-4 md:px-6 py-4 mt-auto">
-                    <p class="text-sm text-gray-500 text-center">© 2025 Immos SAM</p>
+                    <p class="text-sm text-gray-500 text-center">© 2025 Immos SAN</p>
                 </footer>
             </main>
         </div>
