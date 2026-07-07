@@ -114,35 +114,45 @@
                                     <li>
                                         <a href="{{ route('biens.index') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('biens.index') || request()->routeIs('biens.show') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">📋</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path>
+                                            </svg>
                                             <span>Liste</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('biens.create') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('biens.create') || request()->routeIs('biens.edit') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">➕</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                            </svg>
                                             <span>Ajouter</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('biens.transfert') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('biens.transfert') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">🔄</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                                            </svg>
                                             <span>Transfert</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('biens.transfert.historique') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('biens.transfert.historique') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">📜</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                            </svg>
                                             <span>Historique Transferts</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('biens.amortissements') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('biens.amortissements') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">📊</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                            </svg>
                                             <span>Amortissements</span>
                                         </a>
                                     </li>
@@ -170,35 +180,46 @@
                                     <li>
                                         <a href="{{ route('localisations.index') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('localisations.*') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">📍</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
                                             <span>Localisations</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('affectations.index') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('affectations.*') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">🏢</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2M19 21H5m0 0H3m8-14h.01M11 11h.01M11 15h.01M7 11h.01M7 15h.01M15 11h.01M15 15h.01M11 7h.01M7 7h.01M15 7h.01"></path>
+                                            </svg>
                                             <span>Affectations</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('emplacements.index') }}" 
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('emplacements.*') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">🏠</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7m-9-9v9m0 0h6m-6 0H5m4 0v6a1 1 0 001 1h4a1 1 0 001-1v-6m-6 0h6"></path>
+                                            </svg>
                                             <span>Emplacements</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('categories.index') }}"
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('categories.*') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">🏷️</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 11V6a3 3 0 013-3z"></path>
+                                            </svg>
                                             <span>Catégories</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('designations.index') }}"
                                            class="flex items-center px-4 py-2 text-sm text-gray-400 rounded-lg hover:bg-indigo-700 hover:text-white transition-colors {{ request()->routeIs('designations.*') ? 'bg-indigo-700 text-white' : '' }}">
-                                            <span class="mr-2">📝</span>
+                                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                                            </svg>
                                             <span>Désignations</span>
                                         </a>
                                     </li>
