@@ -496,6 +496,7 @@ class FormBien extends Component
                     $bien->load([
                         'designation',
                         'categorie',
+                        'etat',
                         'natureJuridique',
                         'sourceFinancement',
                         'emplacement.localisation',
