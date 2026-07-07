@@ -10,6 +10,7 @@ class SourceFinancementSeeder extends Seeder
     private array $sourcesFinancement = [
         ['CodeSourceFin' => 'FP',   'SourceFin' => 'Fonds Propres'],
         ['CodeSourceFin' => 'PART', 'SourceFin' => 'Partenariat'],
+        ['CodeSourceFin' => 'SUBV', 'SourceFin' => 'Subvention de l\'Etat'],
     ];
 
     public function run(): void
